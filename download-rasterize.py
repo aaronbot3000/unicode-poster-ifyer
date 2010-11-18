@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 from urllib import urlopen
 from PIL import Image
 import re, os

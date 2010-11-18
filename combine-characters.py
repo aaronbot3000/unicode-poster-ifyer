@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 from urllib import urlopen
 import sys, os, re, math
 from PIL import Image, ImageDraw, ImageFont
