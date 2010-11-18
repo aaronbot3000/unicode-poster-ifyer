@@ -127,9 +127,9 @@ def findAllRows(image_data, bounds):
 # Variables
 pageURL = 'http://www.unicode.org/charts/PDF/'
 pageURL52 = 'http://www.unicode.org/charts/PDF/Unicode-5.2/'
-pdfdir = '../pdf_files/'
-pngdir = '../png_files/'
-chardir = '../char_files/'
+pdfdir = 'pdf_files/'
+pngdir = 'png_files/'
+chardir = 'char_files/'
 if not os.path.isdir(pdfdir):
 	os.mkdir(pdfdir)
 if not os.path.isdir(pngdir):

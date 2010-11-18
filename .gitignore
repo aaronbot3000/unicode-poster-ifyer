@@ -1,0 +1,10 @@
+# ignore the generated page directory
+page_files/
+# ignore the generated png directory
+png_files/
+# ignore the generated pdf directory
+pdf_files/
+# ignore the generated character directory
+char_files/
+# ignore the generated Blocks.txt
+Blocks.txt

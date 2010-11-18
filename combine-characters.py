@@ -4,8 +4,8 @@ from urllib import urlopen
 import sys, os, re, math
 from PIL import Image, ImageDraw, ImageFont
 
-chardir = '../char_files/'
-pagedir = '../page_files/'
+chardir = 'char_files/'
+pagedir = 'page_files/'
 block_names_url = 'http://www.unicode.org/Public/6.0.0/ucd/Blocks.txt'
 font_file = '/usr/share/fonts/truetype/ttf-bitstream-vera/VeraBd.ttf'
 if not os.path.isdir(pagedir):
